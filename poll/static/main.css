@@ -1,0 +1,18 @@
+.container-fluid{
+	border: 2px solid #17a2b8;
+	border-radius: 8px;
+	background-color: #17a2b8;
+	position:relative;
+	width:35%;
+	height: auto;
+	top:300px;
+}
+.profile-user p{
+	color: white;
+	font-size: 25px;
+}
+.profile-user h2{
+	color: white;
+}
+
+	

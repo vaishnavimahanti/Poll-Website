@@ -1,0 +1,18 @@
+{%  extends 'registration/main.html' %}
+{% block content %}
+
+{% if user.is_authenticated %}
+
+
+<div class='profile-user'>
+    <h2>{%block title %}Profile {% endblock  %}<hr>
+    <p>Username:{{user}}</p>
+    <p>Email:{{user.email}}</p>
+</div>
+{% else %}
+
+<p>Login to view your details</p>
+
+{% endif %}
+
+{% endblock content %}
